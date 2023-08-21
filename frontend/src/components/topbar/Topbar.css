@@ -1,0 +1,109 @@
+.topBarContainer {
+  /* background-color: #2c517c; */
+  background-color: white;
+  box-shadow: 6px 9px 17px -9px #787878;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.topBarLeft {
+  flex: 3;
+}
+
+.topBarCenter {
+  flex: 5;
+}
+
+.topBarRight {
+  flex: 4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+
+.logo {
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+  margin-left: 20px;
+  transition: all 1s;
+}
+.logo:hover {
+  color: aqua;
+  cursor: pointer;
+}
+
+.searchBar {
+  width: 100%;
+  height: 30px;
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+.searchIcon {
+  font-size: 20px !important;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.searchInput {
+  border: thin solid black;
+  border-radius: 8px;
+  width: 80%;
+}
+/* :focus は CSS の擬似クラスで、フォーカスを持っている (フォームの input のような) 要素を表します */
+.searchInput:focus {
+  outline: none;
+}
+
+.topBarIcon {
+  display: flex;
+}
+
+.topBarIconItem {
+  cursor: pointer;
+  margin-right: 15px;
+  position: relative;
+  color: blue;
+  margin-top: 5px;
+}
+
+.topBarIconItems {
+  cursor: pointer;
+  margin-right: 15px;
+  position: relative;
+  color: gold;
+  margin-top: 5px;
+}
+
+.topBarImg {
+  width: 32px;
+  height: 32px;
+  border: solid #ebe6e6;
+  border-radius: 50%;
+  cursor: pointer;
+  object-fit: cover;
+}
+
+.topBarIconBadge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  color: white;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 12px;
+  background-color: #ec0e0e;
+}

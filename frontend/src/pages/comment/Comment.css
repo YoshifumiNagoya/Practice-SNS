@@ -1,0 +1,25 @@
+.comment {
+  display: flex;
+  width: 100%;
+}
+
+.side {
+  display: 2.5;
+}
+
+.right {
+  display: 4;
+}
+
+.post {
+  box-shadow: 6px 9px 17px -9px #787878;
+  border-radius: 10px;
+  height: 480px;
+  margin: 30px 0;
+  background-color: #fff;
+  display: 5.5;
+}
+
+.commentHead {
+  margin-top: 30px;
+}

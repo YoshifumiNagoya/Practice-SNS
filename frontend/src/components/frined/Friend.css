@@ -1,0 +1,13 @@
+.sideLink {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.sidebarTop {
+  align-items: center;
+}
+
+.sidebarFriendName {
+  color: black;
+}

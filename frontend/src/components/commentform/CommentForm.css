@@ -1,0 +1,64 @@
+/* CommentForm.css */
+
+.commentForm {
+  width: 90%;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.commentForm textarea {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  resize: vertical;
+}
+
+.commentForm button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #0073e6;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.comment {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.commentBottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.commentTop {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.username {
+  color: #777;
+  font-size: 12px;
+  justify-content: space-between;
+}
+
+.date {
+  color: #777;
+  font-size: 12px;
+}
+
+.text {
+  margin: 0;
+}
+
+.Hr {
+  margin-bottom: 3px;
+}
